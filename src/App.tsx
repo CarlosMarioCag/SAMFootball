@@ -388,7 +388,7 @@ const mockData: Country[] = [
 ];
 
 function App() {
-  const [selectedCountry, setSelectedCountry] = useState("");
+  const [selectedCountry, setSelectedCountry] = useState("England");
   const [teams, setTeams] = useState<Team[]>([]);
 
   useEffect(() => {
