@@ -1,0 +1,68 @@
+.board-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.wp-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 20%;
+  font-size: 3em;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+
+.selector-league {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: 100px;
+}
+
+.selector-league-label {
+  font-size: 1em;
+  margin: 6px;
+}
+
+.panel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: 3px solid gray;
+  background-color:#1a1a1a;
+  width: 90%;
+  height: 90%;
+}
+
+.teams-table-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  max-height: 100%;
+  overflow-y: auto;
+  width: 100%;;
+}
+
+.sam-football-version {  /* SAMFootball v.0.0.1 */
+  font-size: 1em;
+  align-self: end;
+  margin-right: 1em;
+}
